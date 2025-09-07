@@ -46,7 +46,7 @@
     }
     .footer-icons a {
       font-size: 20px;
-      margin-right: 15px;
+      margin-right: 10px;
       color: #333;
     }
 
@@ -83,15 +83,12 @@
       min-width: 180px;
     }
 
-    /* Blue line under navbar */
-    .navbar {
-      border-bottom: 2px solid #2e6eb5;
-    }
+   
 
     /* Hover Effect on Navbar Links */
     .nav-link {
       transition: 0.3s;
-      padding: 8px 15px !important;
+      padding: 8px 10px !important;
       border-radius: 5px;
     }
     .nav-link:hover {
@@ -115,3 +112,24 @@
       border: 1px solid #ccc;
       border-right: none;
     }
+    /* start global */
+:root {
+  --main-color: #565e6cff;
+  --back-color: #f8fafc;
+  --hover-color: #204d76ff;
+  --btn-color:#3175b4ff;
+  --Dark-Olive-btn:#4B694B;
+  --Olive-hover-btn:#198754;
+}
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* end global */
