@@ -1,0 +1,64 @@
+/* خلفية عامة للصفحة مع تأثير عند التغيير */
+    body {
+      background-color: #f8f9fa;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    /* الكروت (الصناديق البيضاء) */
+    .card {
+      border-radius: 12px;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    /* شكل مميز لمنطقة الخطر */
+    .danger-zone {
+      border: 1px solid #f5c2c7;
+    }
+
+    /* الفوتر */
+    footer {
+      border-top: 1px solid #ddd;
+      margin-top: 40px;
+      padding: 20px 0;
+      background: #fff;
+      transition: background 0.3s, color 0.3s;
+    }
+    footer a {
+      text-decoration: none;
+      color: #0d6efd;
+      margin: 0 10px;
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+    footer a:hover {
+      color: #0a58ca;
+    }
+
+    /* 🌙 وضع الليل (Dark Mode) */
+    body.dark-mode {
+      background-color: #121212;
+      color: #e9ecef;
+    }
+    body.dark-mode .card {
+      background-color: #1e1e1e;
+      color: #e9ecef;
+      border: 1px solid #333;
+    }
+    body.dark-mode .navbar {
+      background-color: #1e1e1e !important;
+      border-bottom: 1px solid #333;
+    }
+    body.dark-mode .nav-link {
+      color: #e9ecef !important;
+    }
+    body.dark-mode .nav-link:hover {
+      color: #0d6efd !important;
+    }
+    body.dark-mode footer {
+      background-color: #1e1e1e;
+      border-top: 1px solid #333;
+      color: #e9ecef;
+    }
+    body.dark-mode footer a {
+      color: #0d6efd;
+    }
